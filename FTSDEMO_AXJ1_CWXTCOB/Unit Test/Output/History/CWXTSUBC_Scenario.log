@@ -3,8 +3,8 @@
 
  STTR043I Initializing simulation environment for: COBOL V4
  STTR043I Initializing simulation environment for: COBOL V5
- STTR011I totaltest zTargetRunner v170200 on 2019-10-30 12:59.58��������������������������������������
- STTR012I Options set to EXIT(),STUBS(ON),REPEAT(0),ARGTYPE(��������)
+ STTR011I totaltest zTargetRunner v170200 on 2019-11-03 10:11.52��������������������������������������
+ STTR012I Options set to EXIT(),STUBS(OFF),REPEAT(0),ARGTYPE(��������)
  STTR013I Processing test suite CWXTSUBC_Scenario
  STTR014I Processing test scenario CWXTSUBC_Scenario
  STTR028I Processing test case CWXTSUBCCase1
@@ -50,9 +50,9 @@
   openW: rc = 0, rs = <0X00000000>.
   includeName: rc = 0, rs = <0X00000000>.
  ---openW_includeName---exit
-  IDRU: Creation Date = 2019303, Length = 40
-   data = c3e7c3e6e7e3e2e4c2c309394bdb7a18004042e019deaf0c5dec030b190000000000000000000000
-   program = CWXTSUBC, ddio(27) = SALESSUP.AXJ1.DEV1.LOAD.SSD
+  IDRU: Creation Date = 2019307, Length = 40
+   data = c3e7c3e6e7e3e2e4c2c309394bdb7a18004042e06a8401ef06e079bc000000000000000000000000
+   program = CWXTSUBC, ddio(26) = SALESSUP.AXJ1.QA1.LOAD.SSD
  ---closeW---entry
   closeW: rc = 0, rs = <0X00000000>
  ---closeW---exit
@@ -230,9 +230,9 @@
   openW: rc = 0, rs = <0X00000000>.
   includeName: rc = 0, rs = <0X00000000>.
  ---openW_includeName---exit
-  IDRU: Creation Date = 2019303, Length = 40
-   data = c3e7c3e6e7e3e2e4c2c309394bdb7a18004042e019deaf0c5dec030b190000000000000000000000
-   program = CWXTSUBC, ddio(27) = SALESSUP.AXJ1.DEV1.LOAD.SSD
+  IDRU: Creation Date = 2019307, Length = 40
+   data = c3e7c3e6e7e3e2e4c2c309394bdb7a18004042e06a8401ef06e079bc000000000000000000000000
+   program = CWXTSUBC, ddio(26) = SALESSUP.AXJ1.QA1.LOAD.SSD
  ---closeW---entry
   closeW: rc = 0, rs = <0X00000000>
  ---closeW---exit
@@ -410,9 +410,9 @@
   openW: rc = 0, rs = <0X00000000>.
   includeName: rc = 0, rs = <0X00000000>.
  ---openW_includeName---exit
-  IDRU: Creation Date = 2019303, Length = 40
-   data = c3e7c3e6e7e3e2e4c2c309394bdb7a18004042e019deaf0c5dec030b190000000000000000000000
-   program = CWXTSUBC, ddio(27) = SALESSUP.AXJ1.DEV1.LOAD.SSD
+  IDRU: Creation Date = 2019307, Length = 40
+   data = c3e7c3e6e7e3e2e4c2c309394bdb7a18004042e06a8401ef06e079bc000000000000000000000000
+   program = CWXTSUBC, ddio(26) = SALESSUP.AXJ1.QA1.LOAD.SSD
  ---closeW---entry
   closeW: rc = 0, rs = <0X00000000>
  ---closeW---exit
@@ -590,9 +590,9 @@
   openW: rc = 0, rs = <0X00000000>.
   includeName: rc = 0, rs = <0X00000000>.
  ---openW_includeName---exit
-  IDRU: Creation Date = 2019303, Length = 40
-   data = c3e7c3e6e7e3e2e4c2c309394bdb7a18004042e019deaf0c5dec030b190000000000000000000000
-   program = CWXTSUBC, ddio(27) = SALESSUP.AXJ1.DEV1.LOAD.SSD
+  IDRU: Creation Date = 2019307, Length = 40
+   data = c3e7c3e6e7e3e2e4c2c309394bdb7a18004042e06a8401ef06e079bc000000000000000000000000
+   program = CWXTSUBC, ddio(26) = SALESSUP.AXJ1.QA1.LOAD.SSD
  ---closeW---entry
   closeW: rc = 0, rs = <0X00000000>
  ---closeW---exit

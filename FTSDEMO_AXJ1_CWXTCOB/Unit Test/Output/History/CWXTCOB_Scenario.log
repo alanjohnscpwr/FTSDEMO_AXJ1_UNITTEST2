@@ -3,7 +3,7 @@
 
  STTR043I Initializing simulation environment for: COBOL V4
  STTR043I Initializing simulation environment for: COBOL V5
- STTR011I totaltest zTargetRunner v170200 on 2019-10-30 12:54.31��������������������������������������
+ STTR011I totaltest zTargetRunner v170200 on 2019-11-03 10:14.09��������������������������������������
  STTR012I Options set to EXIT(),STUBS(ON),REPEAT(0),ARGTYPE(��������)
  STTR013I Processing test suite CWXTCOB_Scenario
  STTR014I Processing test scenario CWXTCOB_Scenario
@@ -40,9 +40,9 @@
   openW: rc = 0, rs = <0X00000000>.
   includeName: rc = 0, rs = <0X00000000>.
  ---openW_includeName---exit
-  IDRU: Creation Date = 2019303, Length = 40
-   data = c3e7c3e6e7e3c3d6c24009394bdb7a18004042e019deaf0c5dec030b190000000000000000000000
-   program = CWXTCOB , ddio(27) = SALESSUP.AXJ1.DEV1.LOAD.SSD
+  IDRU: Creation Date = 2019307, Length = 40
+   data = c3e7c3e6e7e3c3d6c24009394bdb7a18004042e06a8401ef06e079bc000000000000000000000000
+   program = CWXTCOB , ddio(26) = SALESSUP.AXJ1.QA1.LOAD.SSD
  ---closeW---entry
   closeW: rc = 0, rs = <0X00000000>
  ---closeW---exit
@@ -105,9 +105,9 @@
   openW: rc = 0, rs = <0X00000000>.
   includeName: rc = 0, rs = <0X00000000>.
  ---openW_includeName---exit
-  getD: rc, count = 75, rs = <0X83000800>.
- --->>>class_offset: 0000241C
- --->>>element_offset: 0000241C
+  getD: rc, count = 76, rs = <0X83000800>.
+ --->>>class_offset: 00002424
+ --->>>element_offset: 00002424
  ---closeW---entry
   closeW: rc = 0, rs = <0X00000000>
  ---closeW---exit
@@ -6847,9 +6847,9 @@
   openW: rc = 0, rs = <0X00000000>.
   includeName: rc = 0, rs = <0X00000000>.
  ---openW_includeName---exit
-  getD: rc, count = 75, rs = <0X83000800>.
- --->>>class_offset: 00002420
- --->>>element_offset: 00002420
+  getD: rc, count = 76, rs = <0X83000800>.
+ --->>>class_offset: 00002428
+ --->>>element_offset: 00002428
  ---closeW---entry
   closeW: rc = 0, rs = <0X00000000>
  ---closeW---exit
@@ -9425,7 +9425,7 @@
   openW: rc = 0, rs = <0X00000000>.
   includeName: rc = 0, rs = <0X00000000>.
  ---openW_includeName---exit
-  getD: rc, count = 75, rs = <0X83000800>.
+  getD: rc, count = 76, rs = <0X83000800>.
  --->>>element not found
  ---closeW---entry
   closeW: rc = 0, rs = <0X00000000>
@@ -9438,7 +9438,7 @@
   openW: rc = 0, rs = <0X00000000>.
   includeName: rc = 0, rs = <0X00000000>.
  ---openW_includeName---exit
-  getD: rc, count = 75, rs = <0X83000800>.
+  getD: rc, count = 76, rs = <0X83000800>.
  --->>>element not found
  ---closeW---entry
   closeW: rc = 0, rs = <0X00000000>
@@ -9451,22 +9451,22 @@
   openW: rc = 0, rs = <0X00000000>.
   includeName: rc = 0, rs = <0X00000000>.
  ---openW_includeName---exit
-  getD: rc, count = 75, rs = <0X83000800>.
- --->>>class_offset: 00002440
- --->>>element_offset: 00002440
+  getD: rc, count = 76, rs = <0X83000800>.
+ --->>>class_offset: 0000244C
+ --->>>element_offset: 0000244C
  ---closeW---entry
   closeW: rc = 0, rs = <0X00000000>
  ---closeW---exit
  ---BNDHOOK---exit
  ---BNDHOOK---entry
- --->>>modName = CWXTCOB , pgmName = CWXTCOB , vName = IGZXLOCT , offset = 00002440
+ --->>>modName = CWXTCOB , pgmName = CWXTCOB , vName = IGZXLOCT , offset = 0000244C
  ---openW_includeName---entry
  --->>>moduleName = CWXTCOB
   openW: rc = 0, rs = <0X00000000>.
   includeName: rc = 0, rs = <0X00000000>.
  ---openW_includeName---exit
-  getD: rc, count = 75, rs = <0X83000800>.
- --->>>class_offset: 00002440
+  getD: rc, count = 76, rs = <0X83000800>.
+ --->>>class_offset: 0000244C
  --->>>no additional elements found
  ---closeW---entry
   closeW: rc = 0, rs = <0X00000000>
@@ -9479,7 +9479,7 @@
   openW: rc = 0, rs = <0X00000000>.
   includeName: rc = 0, rs = <0X00000000>.
  ---openW_includeName---exit
-  getD: rc, count = 75, rs = <0X83000800>.
+  getD: rc, count = 76, rs = <0X83000800>.
  --->>>element not found
  ---closeW---entry
   closeW: rc = 0, rs = <0X00000000>
