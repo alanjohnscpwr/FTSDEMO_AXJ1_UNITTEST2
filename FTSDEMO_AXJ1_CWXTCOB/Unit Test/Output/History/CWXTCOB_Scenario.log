@@ -1,9 +1,12 @@
 
 ***************** Output from TTTRUNNR *****************
 
+ CEE3740I The following messages pertain to the system default run-time options.
+ CEE3768I The system default for the run-time option DEBUG could not be overridden.
+ CEE3768I The system default for the run-time option TEST could not be overridden.
  STTR043I Initializing simulation environment for: COBOL V4
  STTR043I Initializing simulation environment for: COBOL V5
- STTR011I totaltest zTargetRunner v170200 on 2019-11-03 10:14.09��������������������������������������
+ STTR011I totaltest zTargetRunner v170200 on 2019-11-21 06:35.08��������������������������������������
  STTR012I Options set to EXIT(),STUBS(ON),REPEAT(0),ARGTYPE(��������)
  STTR013I Processing test suite CWXTCOB_Scenario
  STTR014I Processing test scenario CWXTCOB_Scenario
@@ -40,9 +43,9 @@
   openW: rc = 0, rs = <0X00000000>.
   includeName: rc = 0, rs = <0X00000000>.
  ---openW_includeName---exit
-  IDRU: Creation Date = 2019307, Length = 40
-   data = c3e7c3e6e7e3c3d6c24009394bdb7a18004042e06a8401ef06e079bc000000000000000000000000
-   program = CWXTCOB , ddio(26) = SALESSUP.AXJ1.QA1.LOAD.SSD
+  IDRU: Creation Date = 2019324, Length = 40
+   data = c3e7c3e6e7e3c3d6c24009394bdb7a18004042e019deaf0c5dec030b190000000000000000000000
+   program = CWXTCOB , ddio(27) = SALESSUP.AXJ1.DEV1.LOAD.SSD
  ---closeW---entry
   closeW: rc = 0, rs = <0X00000000>
  ---closeW---exit
@@ -51,8 +54,8 @@
  module: CWXTCOB , csect: CWXTCOB , entry: CWXTCOB#
  ---TARGETcxx---entry
  ---TARGETcxx---exit
- ---TARGET---exit newTARGET: 3875C028
- ---TARGCALL---entry newTARGET: 3875C028
+ ---TARGET---exit newTARGET: 38A1E028
+ ---TARGCALL---entry newTARGET: 38A1E028
  ---T addTargetCall---entry
  ---CC targetCall---entry
  CC AV ptr: 0
@@ -78,7 +81,7 @@
  ---T addTargetArg---entry
  ---setData---entry
  bL: 7, aL: 7
- ---setData---exit --- A(data): 3875C090
+ ---setData---exit --- A(data): 38A1E090
  ---CC TTArgVal---entry
  CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---addTargetArg---entry
@@ -90,14 +93,14 @@
  CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- AV ptr: 3875C0A0
- ---addTargetArg---workingArea: 3875C090
+ AV ptr: 38A1E0A0
+ ---addTargetArg---workingArea: 38A1E090
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 3875C090
+ ---T addTargetArg---workingArea: 38A1E090
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 3875C090
+ ---TARGARG--- workingArea: 38A1E090
  ---BNDHOOK---entry
  --->>>modName = CWXTCOB , pgmName = CWXTCOB , vName = CWXTDATE , offset = 00000000
  ---openW_includeName---entry
@@ -105,9 +108,9 @@
   openW: rc = 0, rs = <0X00000000>.
   includeName: rc = 0, rs = <0X00000000>.
  ---openW_includeName---exit
-  getD: rc, count = 76, rs = <0X83000800>.
- --->>>class_offset: 00002424
- --->>>element_offset: 00002424
+  getD: rc, count = 75, rs = <0X83000800>.
+ --->>>class_offset: 0000241C
+ --->>>element_offset: 0000241C
  ---closeW---entry
   closeW: rc = 0, rs = <0X00000000>
  ---closeW---exit
@@ -119,7 +122,7 @@
  token: 00000000, 0
  assertYN: N
  ---SUBPGMcxx---exit
- ---SUBPGM---exit  newSubPgm: 38888028
+ ---SUBPGM---exit  newSubPgm: 38AC7028
  ---SUBCALL---entry
  ---addSubCall---entry
  ---~subCall---entry
@@ -6847,9 +6850,9 @@
   openW: rc = 0, rs = <0X00000000>.
   includeName: rc = 0, rs = <0X00000000>.
  ---openW_includeName---exit
-  getD: rc, count = 76, rs = <0X83000800>.
- --->>>class_offset: 00002428
- --->>>element_offset: 00002428
+  getD: rc, count = 75, rs = <0X83000800>.
+ --->>>class_offset: 00002420
+ --->>>element_offset: 00002420
  ---closeW---entry
   closeW: rc = 0, rs = <0X00000000>
  ---closeW---exit
@@ -6861,7 +6864,7 @@
  token: 00000000, 0
  assertYN: N
  ---SUBPGMcxx---exit
- ---SUBPGM---exit  newSubPgm: 3883A028
+ ---SUBPGM---exit  newSubPgm: 38A79028
  ---SUBCALL---entry
  ---addSubCall---entry
  ---~subCall---entry
@@ -9425,7 +9428,7 @@
   openW: rc = 0, rs = <0X00000000>.
   includeName: rc = 0, rs = <0X00000000>.
  ---openW_includeName---exit
-  getD: rc, count = 76, rs = <0X83000800>.
+  getD: rc, count = 75, rs = <0X83000800>.
  --->>>element not found
  ---closeW---entry
   closeW: rc = 0, rs = <0X00000000>
@@ -9438,7 +9441,7 @@
   openW: rc = 0, rs = <0X00000000>.
   includeName: rc = 0, rs = <0X00000000>.
  ---openW_includeName---exit
-  getD: rc, count = 76, rs = <0X83000800>.
+  getD: rc, count = 75, rs = <0X83000800>.
  --->>>element not found
  ---closeW---entry
   closeW: rc = 0, rs = <0X00000000>
@@ -9451,22 +9454,22 @@
   openW: rc = 0, rs = <0X00000000>.
   includeName: rc = 0, rs = <0X00000000>.
  ---openW_includeName---exit
-  getD: rc, count = 76, rs = <0X83000800>.
- --->>>class_offset: 0000244C
- --->>>element_offset: 0000244C
+  getD: rc, count = 75, rs = <0X83000800>.
+ --->>>class_offset: 00002440
+ --->>>element_offset: 00002440
  ---closeW---entry
   closeW: rc = 0, rs = <0X00000000>
  ---closeW---exit
  ---BNDHOOK---exit
  ---BNDHOOK---entry
- --->>>modName = CWXTCOB , pgmName = CWXTCOB , vName = IGZXLOCT , offset = 0000244C
+ --->>>modName = CWXTCOB , pgmName = CWXTCOB , vName = IGZXLOCT , offset = 00002440
  ---openW_includeName---entry
  --->>>moduleName = CWXTCOB
   openW: rc = 0, rs = <0X00000000>.
   includeName: rc = 0, rs = <0X00000000>.
  ---openW_includeName---exit
-  getD: rc, count = 76, rs = <0X83000800>.
- --->>>class_offset: 0000244C
+  getD: rc, count = 75, rs = <0X83000800>.
+ --->>>class_offset: 00002440
  --->>>no additional elements found
  ---closeW---entry
   closeW: rc = 0, rs = <0X00000000>
@@ -9479,16 +9482,16 @@
   openW: rc = 0, rs = <0X00000000>.
   includeName: rc = 0, rs = <0X00000000>.
  ---openW_includeName---exit
-  getD: rc, count = 76, rs = <0X83000800>.
+  getD: rc, count = 75, rs = <0X83000800>.
  --->>>element not found
  ---closeW---entry
   closeW: rc = 0, rs = <0X00000000>
  ---closeW---exit
  ---BNDHOOK---exit
  ---DOSBCALL---entry
- parmlist: X'3854D198'
+ parmlist: X'3878D198'
  ---doCall---entry
- parmlist: X'3854D198'
+ parmlist: X'3878D198'
  ---nextSubCallTemp---entry
  stubbedCalls: 14, callTemp: 0
  acS: 4, acL: 4
@@ -9524,9 +9527,9 @@
  ---doCall---exit: 0
  ---DOSBCALL---exit: 0
  ---DOSBCALL---entry
- parmlist: X'3854D198'
+ parmlist: X'3878D198'
  ---doCall---entry
- parmlist: X'3854D198'
+ parmlist: X'3878D198'
  ---nextSubCallTemp---entry
  stubbedCalls: 14, callTemp: 1
  acS: 4, acL: 4
@@ -9562,9 +9565,9 @@
  ---doCall---exit: 0
  ---DOSBCALL---exit: 0
  ---DOSBCALL---entry
- parmlist: X'3854D198'
+ parmlist: X'3878D198'
  ---doCall---entry
- parmlist: X'3854D198'
+ parmlist: X'3878D198'
  ---nextSubCallTemp---entry
  stubbedCalls: 8, callTemp: 0
  acS: 3, acL: 3
@@ -9594,9 +9597,9 @@
  ---doCall---exit: 0
  ---DOSBCALL---exit: 0
  ---DOSBCALL---entry
- parmlist: X'3854D198'
+ parmlist: X'3878D198'
  ---doCall---entry
- parmlist: X'3854D198'
+ parmlist: X'3878D198'
  ---nextSubCallTemp---entry
  stubbedCalls: 14, callTemp: 2
  acS: 4, acL: 4
@@ -9632,9 +9635,9 @@
  ---doCall---exit: 0
  ---DOSBCALL---exit: 0
  ---DOSBCALL---entry
- parmlist: X'3854D198'
+ parmlist: X'3878D198'
  ---doCall---entry
- parmlist: X'3854D198'
+ parmlist: X'3878D198'
  ---nextSubCallTemp---entry
  stubbedCalls: 8, callTemp: 1
  acS: 3, acL: 3
@@ -9664,9 +9667,9 @@
  ---doCall---exit: 0
  ---DOSBCALL---exit: 0
  ---DOSBCALL---entry
- parmlist: X'3854D198'
+ parmlist: X'3878D198'
  ---doCall---entry
- parmlist: X'3854D198'
+ parmlist: X'3878D198'
  ---nextSubCallTemp---entry
  stubbedCalls: 14, callTemp: 3
  acS: 4, acL: 4
@@ -9702,9 +9705,9 @@
  ---doCall---exit: 0
  ---DOSBCALL---exit: 0
  ---DOSBCALL---entry
- parmlist: X'3854D198'
+ parmlist: X'3878D198'
  ---doCall---entry
- parmlist: X'3854D198'
+ parmlist: X'3878D198'
  ---nextSubCallTemp---entry
  stubbedCalls: 8, callTemp: 2
  acS: 3, acL: 3
@@ -9734,9 +9737,9 @@
  ---doCall---exit: 0
  ---DOSBCALL---exit: 0
  ---DOSBCALL---entry
- parmlist: X'3854D198'
+ parmlist: X'3878D198'
  ---doCall---entry
- parmlist: X'3854D198'
+ parmlist: X'3878D198'
  ---nextSubCallTemp---entry
  stubbedCalls: 14, callTemp: 4
  acS: 4, acL: 4
@@ -9772,9 +9775,9 @@
  ---doCall---exit: 0
  ---DOSBCALL---exit: 0
  ---DOSBCALL---entry
- parmlist: X'3854D198'
+ parmlist: X'3878D198'
  ---doCall---entry
- parmlist: X'3854D198'
+ parmlist: X'3878D198'
  ---nextSubCallTemp---entry
  stubbedCalls: 8, callTemp: 3
  acS: 3, acL: 3
@@ -9804,9 +9807,9 @@
  ---doCall---exit: 0
  ---DOSBCALL---exit: 0
  ---DOSBCALL---entry
- parmlist: X'3854D198'
+ parmlist: X'3878D198'
  ---doCall---entry
- parmlist: X'3854D198'
+ parmlist: X'3878D198'
  ---nextSubCallTemp---entry
  stubbedCalls: 14, callTemp: 5
  acS: 4, acL: 4
@@ -9842,9 +9845,9 @@
  ---doCall---exit: 0
  ---DOSBCALL---exit: 0
  ---DOSBCALL---entry
- parmlist: X'3854D198'
+ parmlist: X'3878D198'
  ---doCall---entry
- parmlist: X'3854D198'
+ parmlist: X'3878D198'
  ---nextSubCallTemp---entry
  stubbedCalls: 14, callTemp: 6
  acS: 4, acL: 4
@@ -9880,9 +9883,9 @@
  ---doCall---exit: 0
  ---DOSBCALL---exit: 0
  ---DOSBCALL---entry
- parmlist: X'3854D198'
+ parmlist: X'3878D198'
  ---doCall---entry
- parmlist: X'3854D198'
+ parmlist: X'3878D198'
  ---nextSubCallTemp---entry
  stubbedCalls: 8, callTemp: 4
  acS: 3, acL: 3
@@ -9912,9 +9915,9 @@
  ---doCall---exit: 0
  ---DOSBCALL---exit: 0
  ---DOSBCALL---entry
- parmlist: X'3854D198'
+ parmlist: X'3878D198'
  ---doCall---entry
- parmlist: X'3854D198'
+ parmlist: X'3878D198'
  ---nextSubCallTemp---entry
  stubbedCalls: 14, callTemp: 7
  acS: 4, acL: 4
@@ -9950,9 +9953,9 @@
  ---doCall---exit: 0
  ---DOSBCALL---exit: 0
  ---DOSBCALL---entry
- parmlist: X'3854D198'
+ parmlist: X'3878D198'
  ---doCall---entry
- parmlist: X'3854D198'
+ parmlist: X'3878D198'
  ---nextSubCallTemp---entry
  stubbedCalls: 8, callTemp: 5
  acS: 3, acL: 3
@@ -9982,9 +9985,9 @@
  ---doCall---exit: 0
  ---DOSBCALL---exit: 0
  ---DOSBCALL---entry
- parmlist: X'3854D198'
+ parmlist: X'3878D198'
  ---doCall---entry
- parmlist: X'3854D198'
+ parmlist: X'3878D198'
  ---nextSubCallTemp---entry
  stubbedCalls: 14, callTemp: 8
  acS: 4, acL: 4
@@ -10020,9 +10023,9 @@
  ---doCall---exit: 0
  ---DOSBCALL---exit: 0
  ---DOSBCALL---entry
- parmlist: X'3854D198'
+ parmlist: X'3878D198'
  ---doCall---entry
- parmlist: X'3854D198'
+ parmlist: X'3878D198'
  ---nextSubCallTemp---entry
  stubbedCalls: 14, callTemp: 9
  acS: 4, acL: 4
@@ -10058,9 +10061,9 @@
  ---doCall---exit: 0
  ---DOSBCALL---exit: 0
  ---DOSBCALL---entry
- parmlist: X'3854D198'
+ parmlist: X'3878D198'
  ---doCall---entry
- parmlist: X'3854D198'
+ parmlist: X'3878D198'
  ---nextSubCallTemp---entry
  stubbedCalls: 14, callTemp: 10
  acS: 4, acL: 4
@@ -10096,9 +10099,9 @@
  ---doCall---exit: 0
  ---DOSBCALL---exit: 0
  ---DOSBCALL---entry
- parmlist: X'3854D198'
+ parmlist: X'3878D198'
  ---doCall---entry
- parmlist: X'3854D198'
+ parmlist: X'3878D198'
  ---nextSubCallTemp---entry
  stubbedCalls: 8, callTemp: 6
  acS: 3, acL: 3
@@ -10128,9 +10131,9 @@
  ---doCall---exit: 0
  ---DOSBCALL---exit: 0
  ---DOSBCALL---entry
- parmlist: X'3854D198'
+ parmlist: X'3878D198'
  ---doCall---entry
- parmlist: X'3854D198'
+ parmlist: X'3878D198'
  ---nextSubCallTemp---entry
  stubbedCalls: 14, callTemp: 11
  acS: 4, acL: 4
@@ -10166,9 +10169,9 @@
  ---doCall---exit: 0
  ---DOSBCALL---exit: 0
  ---DOSBCALL---entry
- parmlist: X'3854D198'
+ parmlist: X'3878D198'
  ---doCall---entry
- parmlist: X'3854D198'
+ parmlist: X'3878D198'
  ---nextSubCallTemp---entry
  stubbedCalls: 14, callTemp: 12
  acS: 4, acL: 4
@@ -10204,9 +10207,9 @@
  ---doCall---exit: 0
  ---DOSBCALL---exit: 0
  ---DOSBCALL---entry
- parmlist: X'3854D198'
+ parmlist: X'3878D198'
  ---doCall---entry
- parmlist: X'3854D198'
+ parmlist: X'3878D198'
  ---nextSubCallTemp---entry
  stubbedCalls: 8, callTemp: 7
  acS: 3, acL: 3
@@ -10236,9 +10239,9 @@
  ---doCall---exit: 0
  ---DOSBCALL---exit: 0
  ---DOSBCALL---entry
- parmlist: X'3854D198'
+ parmlist: X'3878D198'
  ---doCall---entry
- parmlist: X'3854D198'
+ parmlist: X'3878D198'
  ---nextSubCallTemp---entry
  stubbedCalls: 14, callTemp: 13
  acS: 4, acL: 4
