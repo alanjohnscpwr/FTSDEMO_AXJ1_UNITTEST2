@@ -22,4 +22,9 @@
     <testcase classname="FTSDEMO_AXJ1_CWXTCOB.CWXTSUBC_Scenario.00004: CWXTSUBCCase4" name="00002: Check for SALES_AMOUNT"/>
     <testcase classname="FTSDEMO_AXJ1_CWXTCOB.CWXTSUBC_Scenario.00004: CWXTSUBCCase4" name="00003: Check for COMM_TOTAL"/>
   </testsuite>
+  <testsuite errors="0" failures="0" name="FTSDEMO_AXJ1_CWXTCOB.CWXTSUBC_Scenario.00005: CWXTSUBCCase5" tests="3">
+    <testcase classname="FTSDEMO_AXJ1_CWXTCOB.CWXTSUBC_Scenario.00005: CWXTSUBCCase5" name="00001: Check for EMP_TYPE"/>
+    <testcase classname="FTSDEMO_AXJ1_CWXTCOB.CWXTSUBC_Scenario.00005: CWXTSUBCCase5" name="00002: Check for SALES_AMOUNT"/>
+    <testcase classname="FTSDEMO_AXJ1_CWXTCOB.CWXTSUBC_Scenario.00005: CWXTSUBCCase5" name="00003: Check for COMM_TOTAL"/>
+  </testsuite>
 </testsuites>
