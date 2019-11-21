@@ -6,7 +6,7 @@
  CEE3768I The system default for the run-time option TEST could not be overridden.
  STTR043I Initializing simulation environment for: COBOL V4
  STTR043I Initializing simulation environment for: COBOL V5
- STTR011I totaltest zTargetRunner v170200 on 2019-11-21 06:35.08��������������������������������������
+ STTR011I totaltest zTargetRunner v170200 on 2019-11-21 06:57.34��������������������������������������
  STTR012I Options set to EXIT(),STUBS(ON),REPEAT(0),ARGTYPE(��������)
  STTR013I Processing test suite CWXTCOB_Scenario
  STTR014I Processing test scenario CWXTCOB_Scenario
@@ -43,7 +43,7 @@
   openW: rc = 0, rs = <0X00000000>.
   includeName: rc = 0, rs = <0X00000000>.
  ---openW_includeName---exit
-  IDRU: Creation Date = 2019324, Length = 40
+  IDRU: Creation Date = 2019325, Length = 40
    data = c3e7c3e6e7e3c3d6c24009394bdb7a18004042e019deaf0c5dec030b190000000000000000000000
    program = CWXTCOB , ddio(27) = SALESSUP.AXJ1.DEV1.LOAD.SSD
  ---closeW---entry
